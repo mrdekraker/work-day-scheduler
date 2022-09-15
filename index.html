@@ -23,141 +23,147 @@
       <p class="date lead text-center display-3" id="displayDate">
         Today's date
       </p>
+      <button type="button" class="btn btn-primary px-5 py-2" id="resetBtn">
+        Reset Day
+      </button>
     </header>
 
     <main class="container main-background mb-5">
       <div id="list">
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour9">
-            09:00
+        <div class="d-flex mx-3 row" id="hour9">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="9">9:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour9">9</div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="9">9</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="9"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 9am">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour10">
-            10:00
+        <div class="d-flex mx-3 row" id="hour10">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="10">10:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour10">
-            10
-          </div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="10">10</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="10"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 10am">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour11">
-            11:00
+        <div class="d-flex mx-3 row" id="hour11">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="11">11:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour11">
-            11
-          </div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="11">11</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="11"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 11am">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour12">
-            12:00
+        <div class="d-flex mx-3 row" id="hour12">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="12">12:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour12">
-            12
-          </div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="12">12</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="12"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 12pm">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour13">
-            1:00
+        <div class="d-flex mx-3 row" id="hour13">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="13">1:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour13">1</div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="13">1</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="13"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 1pm">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour14">
-            2:00
+        <div class="d-flex mx-3 row" id="hour14">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="14">2:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour14">2</div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="14">2</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="14"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 2pm">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour15">
-            3:00
+        <div class="d-flex mx-3 row" id="hour15">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="15">3:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour15">3</div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="15">3</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="15"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 3pm">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour16">
-            4:00
+        <div class="d-flex mx-3 row" id="hour16">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="16">4:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour16">4</div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="16">4</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="16"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 4pm">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
-        <div class="d-flex row mx-3">
-          <div class="time text-left col-1 py-3 d-none d-md-block" id="hour17">
-            5:00
+        <div class="d-flex mx-3 row" id="hour17">
+          <div class="text-left col-1 py-2 d-none d-md-block hour">
+            <span id="17">5:00</span>
           </div>
-          <div class="time text-center col-1 py-3 d-md-none" id="hour17">5</div>
-          <div
-            class="change border flex-column d-flex justify-content-center text-left col-10">
-            Click Here To Change
-          </div>
-          <div
-            class="save border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center">
+          <div class="text-center col-1 py-3 d-md-none hour" id="17">5</div>
+          <textarea
+            class="scheduleText border time col-10 d-flex text-left"
+            id="17"
+            placeholder="Click Here To Change"></textarea>
+          <button
+            class="saveBtn border-top border-bottom text-center rounded-end col-1 flex-column d-flex justify-content-center"
+            aria-label="save button 5pm">
             <i class="fa-solid fa-lock"></i>
-          </div>
+          </button>
         </div>
       </div>
     </main>
@@ -167,10 +173,10 @@
       src="https://kit.fontawesome.com/377ae0cdce.js"
       crossorigin="anonymous"></script>
     <!-- BOOTSTRAP -->
-    <!-- <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script> -->
+      crossorigin="anonymous"></script>
 
     <!-- JQUERY/JQUERY UI -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
