@@ -1,0 +1,81 @@
+body {
+  background: #43cea2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #185a9d,
+    #43cea2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* RESET BUTTON  */
+#clear {
+  border: none;
+  background: rgba(24, 90, 157, 0.4);
+}
+
+#clear:hover {
+  background: rgba(174, 0, 0, 0.8);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.main-background {
+  padding: 25px;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* HOUR STYLING */
+#list :last-child > .hour {
+  border-bottom: 1px dashed lightgray;
+}
+
+.hour {
+  background: lightsalmon;
+  border-top: 1px dashed lightgray;
+  /* background: orange; */
+}
+
+.saveBtn {
+  border: none;
+  background: blue;
+}
+
+.saved {
+  background: green;
+}
+
+.past {
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+.present {
+  background: rgba(174, 0, 0);
+}
+
+.future {
+  background: lightgreen;
+}
+
+.scheduleText::placeholder {
+  color: rgb(82, 82, 82);
+}
+.scheduleText {
+  /* background: transparent; */
+  border: none;
+  resize: none;
+  color: black;
+  border-left: 1px solid rgb(29, 29, 29);
+  letter-spacing: 1px;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
